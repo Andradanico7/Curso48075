@@ -5,9 +5,17 @@
 }
 .navbar{
     background-color: #0a1266 ;
+    display: flex;
+    justify-content:center;
+    position: relative;
     
 }
-
+.logo{
+    width: 48px;
+    margin: 10px;
+    position: absolute;
+    left: 10px;
+}
 .navbar > ul {
     list-style: none;
     display: flex;
@@ -59,6 +67,15 @@
     width: 350px;
     column-gap: 10px;
     margin: 10px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.price span{
+    margin-top: 10px;
+    font-weight: bold;
 }
 .btn {
     display: block;
